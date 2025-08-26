@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>50 Questions Quiz</title>
+  <link rel="stylesheet" href="quizpage.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Quiz App (50 Questions)</h2>
+    <div id="progress-bar"></div>
+    <div id="status">
+      Answered: <span id="answered-count">0</span> / <span id="total-count">50</span>
+      <span id="timer">15</span>s
+    </div>
+    <div id="question-box">
+      <div id="question"></div>
+      <div id="answers"></div>
+      <button id="skip-btn">Skip</button>
+    </div>
+    <div id="result" style="display:none;"></div>
+  </div>
+  <script src="quizpage.js"></script>
+</body>
+</html>
